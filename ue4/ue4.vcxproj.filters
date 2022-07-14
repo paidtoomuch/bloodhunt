@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source.cpp" />
+    <ClCompile Include="client\hook\hde\hde32.c" />
+    <ClCompile Include="client\hook\hde\hde64.c" />
+    <ClCompile Include="client\hook\buffer.c" />
+    <ClCompile Include="client\hook\hook.c" />
+    <ClCompile Include="client\hook\trampoline.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\module\encstr.h" />
+    <ClInclude Include="client\d3d\render_data.h" />
+    <ClInclude Include="client\d3d\render.h" />
+    <ClInclude Include="client\module\math.h" />
+    <ClInclude Include="client\scene\hk_scene.h" />
+    <ClInclude Include="client\d3d\gui\gui.h" />
+    <ClInclude Include="client\module\utilities.h" />
+    <ClInclude Include="client\includes.hpp" />
+    <ClInclude Include="client\sdk\UWorld.cpp" />
+    <ClInclude Include="client\sdk\UGameInstance.cpp" />
+    <ClInclude Include="client\sdk\ULevel.cpp" />
+    <ClInclude Include="client\sdk\ULocalPlayer.cpp" />
+    <ClInclude Include="client\sdk\APawn.cpp" />
+    <ClInclude Include="client\sdk\APlayerController.cpp" />
+    <ClInclude Include="client\hook\hde\hde32.h" />
+    <ClInclude Include="client\hook\hde\hde64.h" />
+    <ClInclude Include="client\hook\hde\pstdint.h" />
+    <ClInclude Include="client\hook\hde\table32.h" />
+    <ClInclude Include="client\hook\hde\table64.h" />
+    <ClInclude Include="client\hook\buffer.h" />
+    <ClInclude Include="client\hook\MinHook.h" />
+    <ClInclude Include="client\hook\trampoline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="client\module\assert.asm" />
+  </ItemGroup>
+</Project>
